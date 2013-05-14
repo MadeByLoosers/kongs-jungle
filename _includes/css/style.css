@@ -1,0 +1,68 @@
+html,
+body,
+#container {
+    margin:0;
+    padding:0;
+    height:100%;
+    overflow:hidden;
+}
+
+body {
+    background:#000;
+}
+
+#container {
+    display:table;
+    margin:0 auto;
+}
+
+#canvas-wrap {
+    display:table-cell;
+    vertical-align:middle;
+}
+
+#k0ngs-jungle {
+    border: 1px solid #fbbd27;
+    max-width:95%;
+    margin:0 auto;
+    height:auto;
+}
+
+.button {
+    display:block;
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:60px;
+    height:60px;
+    background:url(../img/buttons.png) transparent no-repeat left top;
+    opacity:0.7;
+}
+
+.button:active {
+    opacity:1;
+}
+
+.left   { left:30px;             bottom:30px;   background-position:0 -60px;  }
+.right  { left:100px;            bottom:30px;   background-position:0 -120px; }
+.up     { left:65px;             bottom:100px;  background-position:0 -180px; }
+.attack { left:auto; right:30px; bottom:30px;   background-position:0 0;      }
+
+
+@media (max-width:600px) {
+    #canvas-wrap {
+        margin-top:1em;
+        display:block;
+        height:100%;
+        overflow:hidden;
+        text-align: center;
+    }
+}
+
+
+@media (max-height:350px) {
+    #k0ngs-jungle {
+        max-width:50%;
+    }
+}
+

@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="description" content="ooh ooh aah aah aah ... k0nG's Jungle">
+        <title>k0nG's Jungle</title>
+        <link rel="stylesheet" href="_includes/css/style.css">
+        <link rel="shortcut icon" href="favicon.ico">
+        <script src="_includes/js/animation.js"></script>
+        <script src="_includes/js/Controller.js"></script>
+        <script src="_includes/js/Model.js"></script>
+        <script src="_includes/js/View.js"></script>
+        <script src="_includes/js/Level.js"></script>
+        <script src="_includes/js/Actor.js"></script>
+        <script src="_includes/js/HealthBar.js"></script>
+        <script src="_includes/js/init.js"></script>
+        <script src="https://raw.github.com/GuntLondon/gunt-badge/master/gunt-badge.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <div id="canvas-wrap">
+                <canvas id="k0ngs-jungle" width="900" height="600"></canvas>
+            </div>
+        </div>
+
+        <audio id="main-audio" autoplay="autoplay" loop>
+            <source src="_includes/mp3/kong.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <script>
+
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-29684348-9']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+
+        </script>
+    </body>
+</html>
