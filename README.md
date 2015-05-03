@@ -1,4 +1,4 @@
 k0nG's Jungle
 =============
 
-http://kongsjungle.co.uk
+[http://guntlondon.github.io/kongsjungle](http://guntlondon.github.io/kongsjungle) or [http://kongsjungle.guntlondon.com/](http://kongsjungle.guntlondon.com/)
